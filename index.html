@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuri Köster e Gatos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content {
+            flex: 1;
+        }
+        section {
+            padding-top: 160px; /* Adjust this value based on your header height */
+            margin-top: -160px; /* Same value as padding */
+        }
+
+    </style>
+</head>
+<body>
+
+<header class="bg-primary text-white text-center p-4 sticky-top">
+    <h1>Yuri Köster</h1>
+    <nav>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#secao1">Sobre os Gatos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#secao2">Gatos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#secao3">FAQ</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container-xl content mt-4">
+    <section id="secao1" class="mb-4">
+        <div class="bg-light w-100 h-100 p-4">
+            <h2>Sobre os Gatos</h2>
+            <p>Os gatos são animais fascinantes e encantadores, conhecidos por sua independência e personalidade única. Eles têm uma maneira especial de se conectar com seus humanos, oferecendo amor e companhia de uma forma que só eles sabem fazer. Cada gato é um mundo à parte, com suas próprias peculiaridades e traços que os tornam especiais.</p>
+
+            <p>Um exemplo perfeito dessa singularidade é o meu gato preto chamado Salem. Ele é um verdadeiro charme, com seu pelo lustroso e olhos brilhantes que parecem brilhar à luz da lua. Salem é muito carinhoso e adora se aconchegar ao meu lado enquanto leio ou assisto a filmes. Sua presença traz uma sensação de tranquilidade e alegria ao meu lar.</p>
+
+            <p>Além de ser um companheiro leal, Salem também é muito brincalhão. Ele adora perseguir brinquedos e explorar cada canto da casa. Sua curiosidade é contagiante, e muitas vezes me pego rindo das travessuras dele. Ter um gato como Salem não é apenas ter um animal de estimação; é ter um amigo fiel que ilumina meus dias com sua personalidade única.</p>
+        </div>
+    </section>
+
+
+    <section id="secao2" class="mb-4">
+        <h2>Gatos</h2>
+        <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#cardCarousel" data-bs-slide-to="0" class="text-bg-secondary active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#cardCarousel" data-bs-slide-to="1"  class="text-bg-secondary" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#cardCarousel" data-bs-slide-to="2" class="text-bg-secondary" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                          <div class="col-4 col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://cataas.com/cat/cute/says/Card 1?type=square" class="card-img-top" alt="Card 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 1</h5>
+                                    <p class="card-text">Uma imagem aleatoria de um gato com o texto Card 1.</p>
+                                    <a href="#" class="btn btn-primary">Ver mais</a>
+                                </div>
+                            </div>
+                        </div>
+                          <div class="col-4 col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://cataas.com/cat/cute/says/Card 2?type=square" class="card-img-top" alt="Card 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 2</h5>
+                                    <p class="card-text">Uma imagem aleatoria de um gato com o texto Card 2.</p>
+                                    <a href="#" class="btn btn-primary">Ver mais</a>
+                                </div>
+                            </div>
+                        </div>
+                          <div class="col-4 col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://cataas.com/cat/cute/says/Card 3?type=square" class="card-img-top" alt="Card 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 3</h5>
+                                    <p class="card-text">Uma imagem aleatoria de um gato com o texto Card 3.</p>
+                                    <a href="#" class="btn btn-primary">Ver mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                          <div class="col-4 col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://cataas.com/cat/cute/says/Card 4?type=square" class="card-img-top" alt="Card 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 4</h5>
+                                    <p class="card-text">Uma imagem aleatoria de um gato com o texto Card 4.</p>
+                                    <a href="#" class="btn btn-primary">Ver mais</a>
+                                </div>
+                            </div>
+                        </div>
+                          <div class="col-4 col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://cataas.com/cat/cute/says/Card 5?type=square" class="card-img-top" alt="Card 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 5</h5>
+                                    <p class="card-text">Uma imagem aleatoria de um gato com o texto Card 5.</p>
+                                    <a href="#" class="btn btn-primary">Ver mais</a>
+                                </div>
+                            </div>
+                        </div>
+                          <div class="col-4 col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://cataas.com/cat/cute/says/Card 6?type=square" class="card-img-top" alt="Card 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 6</h5>
+                                    <p class="card-text">Uma imagem aleatoria de um gato com o texto Card 6.</p>
+                                    <a href="#" class="btn btn-primary">Ver mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-4 col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://cataas.com/cat/says/Card 7?type=square" class="card-img-top" alt="Imagem do Card 7">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 7</h5>
+                                    <p class="card-text">Uma imagem aleatoria de um gato com o texto Card 7.</p>
+                                    <a href="#" class="btn btn-primary">Ver mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://cataas.com/cat/says/Card 8?type=square" class="card-img-top" alt="Imagem do Card 8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 8</h5>
+                                    <p class="card-text">Uma imagem aleatoria de um gato com o texto Card 8.</p>
+                                    <a href="#" class="btn btn-primary">Ver mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://cataas.com/cat/says/Card 9?type=square" class="card-img-top" alt="Imagem do Card 9">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 9</h5>
+                                    <p class="card-text">Uma imagem aleatoria de um gato com o texto Card 9.</p>
+                                    <a href="#" class="btn btn-primary">Ver mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+    </section>
+
+    <section id="secao3" class="mb-4 mb-60">
+        <div class="bg-light w-100 h-100">
+        <h2>FAQ</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            O que é importante saber sobre gatos?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Os gatos são animais independentes e curiosos.</strong> Eles precisam de cuidados adequados, como alimentação balanceada, água fresca e um ambiente seguro. É importante também proporcionar brinquedos e arranhadores para manter sua saúde mental e física.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Como posso cuidar da saúde do meu gato?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>É essencial levar seu gato ao veterinário regularmente.</strong> Vacinas, vermifugação e check-ups são fundamentais para garantir a saúde do seu felino. Além disso, observe sinais de doenças, como mudanças no apetite ou comportamento.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            O que os gatos podem comer?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Os gatos são carnívoros obrigatórios.</strong> Sua dieta deve ser composta principalmente de proteínas de alta qualidade. Alimentos específicos para gatos, como ração seca ou úmida, são recomendados. Evite dar alimentos humanos, especialmente chocolate, cebola e alho, que podem ser tóxicos.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+
+<footer class="bg-dark text-white text-center p-3 mt-30">
+    &copy; 2024 Yuri Köster. Todos os direitos reservados.
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
